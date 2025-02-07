@@ -1,0 +1,49 @@
+# Composite-Drought-Assessment
+
+Drought Severity Index (DSI)
+What is Drought Severity Index (DSI)?
+The Drought Severity Index (DSI) is a quantitative measure used to assess the severity of drought conditions within a specified area. DSI provides a standardized way to evaluate how much below average the precipitation or water storage is during a drought event. This index is calculated by comparing the observed water availability (e.g., precipitation, soil moisture, or streamflow) with a long-term mean or reference value.
+The DSI is widely used for monitoring drought conditions, assisting in decision-making for water management, agriculture, and climate adaptation strategies. It provides a clear indication of the degree of drought—whether it is mild, moderate, severe, or exceptional—which helps in taking appropriate actions for mitigation.
+Why is DSI Important?
+1.	Drought Early Warning:
+o	The DSI provides an early warning system by assessing the severity of drought. By identifying regions with severe drought conditions, it helps mitigate the impact on water resources, crops, and other environmental factors.
+2.	Water Resource Management:
+o	It helps water managers and policy makers to implement more effective water management strategies during drought conditions. Understanding the severity of the drought helps allocate resources more efficiently, ensuring that critical water supply systems can continue to function.
+3.	Agricultural Forecasting:
+o	Farmers and agricultural experts can use DSI to predict crop failure or water scarcity due to drought. With the proper early warnings, agricultural planning and irrigation strategies can be adjusted accordingly to prevent crop damage.
+4.	Environmental Protection:
+o	DSI can be used to assess the impact of drought on ecosystems such as rivers, forests, and wetlands. This information helps environmental authorities develop and implement strategies to protect vulnerable ecosystems during drought periods.
+5.	Climate Change Monitoring:
+o	DSI helps track long-term trends in drought severity, providing insights into the impacts of climate change on precipitation patterns, water availability, and the frequency of drought events.
+How is DSI Calculated?
+The Drought Severity Index is typically calculated using the formula that compares the current precipitation or water storage to long-term averages. The formula can be written as:
+DSI=Pcurrent−PmeanPstdDSI = \frac{P_{current} - P_{mean}}{P_{std}}DSI=PstdPcurrent−Pmean
+Where:
+•	P_current is the observed precipitation or water storage at a given time.
+•	P_mean is the mean precipitation or water storage over a reference period (e.g., 30 years).
+•	P_std is the standard deviation of precipitation or water storage over the same reference period.
+A negative DSI value indicates a deficit (dry conditions), while a positive value indicates excess moisture (wet conditions). The further the DSI value deviates from zero, the more severe the drought or wet condition.
+________________________________________
+Code Information:
+This code is developed to calculate and analyze drought conditions in Pakistan using a shapefile representing the country's boundaries. The code uses GRACE data (Gravity Recovery and Climate Experiment) for water storage anomaly and precipitation data to compute the Drought Severity Index (DSI) over time.
+You can easily modify the location of interest by changing the shapefile path to match your region of interest. The code is flexible enough to handle any region, as long as a shapefile with the correct spatial boundary is available.
+________________________________________
+How to Use the Code:
+1.	Modify the Shapefile:
+o	If you're analyzing a different region, replace the shapefile_path in the code with the path to your own shapefile.
+o	The shapefile should contain the geographical boundaries (e.g., administrative boundary, country, or state) of the region you want to analyze.
+2.	Data Sources:
+o	The code uses GRACE data (for water storage anomalies) and precipitation data. Ensure these data sources are accessible and update the code accordingly if you're using a different dataset.
+3.	Run the Code:
+o	After modifying the region and ensuring data availability, you can re-run the code to compute DSI for your region.
+4.	Output:
+o	The code will generate DSI maps, time series plots, and statistical analysis (mean, max, min, and standard deviation) for drought conditions in the specified region.
+________________________________________
+By modifying the shapefile and data inputs, you can apply this code to any region globally and analyze the severity of droughts based on precipitation and water storage anomalies. This approach provides valuable insights for climate resilience, water resource management, and agricultural planning.
+
+Best of Luck
+Muhammad Shahid Iqbal
+shahid.iqbal@cgiar.org
+muhammad.shahidiqbal@outlook.com
+
+
